@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de estudantes</title>
+    <meta charset="UTF-8/">
+</head>
+
+<body style="background-color:#6495ed">
+    <h2 style="color: white">Cadastro de estudantes</h2>
+
+    <form>
+        <fieldset>
+            <legend style="color: white">Dados escolares</legend>
+            <label style="color: white" for="escolaridade">Escolaridade:</label>
+            <select id="escolaridade" name="escolaridade"><br>
+                <option selected value="anoUm">1º Ano</option>
+                <option value="anoDois">2º Ano</option>
+                <option value="anoTres">3º Ano</option>
+                <option value="anoQuatro">4º Ano</option>
+                <option value="anoCinco">5º Ano</option>
+            </select>
+            <br>
+            <input type="checkbox" id="disciplina1" name="disciplina1" value="portugues">
+            <label style="color: white" for="disciplina1">Português</label>
+            <br>
+            <input type="checkbox" id="disciplina2" name="disciplina2" value="matematica">
+            <label style="color: white" for="disciplina2">Matemática</label>
+            <br>
+            <label style="color: white" for="professor">Escolha seu professor:</label>
+            <input list="professor">
+            <datalist id="professor" name=professor>
+                <option value="Juliana Martins"></option>
+                <option value="Claudia"></option>
+                <option value="Gabriel"></option>
+                <option value="Marcio"></option>
+                <option value="Vicente"></option>
+                <option value="André"></option>
+            </datalist>
+        </fieldset><br>
+        <fieldset>
+            <legend style="color: white">Descrição</legend>
+            <textarea id="descricao" name="descricao" rows="5" cols="50" style="text-align:left">
+                Minha descrição
+            </textarea>
+        </fieldset><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Cadastrar">
+    </form>
+    <br>
+    <a href="index.html">Voltar</a>
+    <br>
+</body>
+
+</html>

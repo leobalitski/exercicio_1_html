@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de materiais</title>
+    <meta charset="UTF-8/">
+</head>
+
+<body>
+    <h4><strong>Cadastro de novos materiais de aula</h4></strong>
+    <fieldset>
+        <legend>Lista de materiais já cadastrados</legend>
+        <ol>
+            <li>Lápis</li>
+            <li>Caneta</li>
+            <li>Papel</li>
+            <li>Tesoura</li>
+        </ol>
+    </fieldset>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Cadastrar novo material</legend>
+            <input type="text" id="nome" placeholder="Nome">
+            <br>
+            <input type="text" id="preco" placeholder="Preço">
+            <br>
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade">
+            <br>
+            <label for="devolucao">Devolução:</label>
+            <input type="radio" id="sim" name="devolucao" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="devolucao" value="Nao">
+            <label for="nao">Não</label>
+            <br>
+            <input type="reset" style="background-color:lightgray;color:black; border: 1px solid gray" value="Limpar">
+            <input type="submit" style="background-color:lightgray;color:black; border: 1px solid gray" value="Cadastrar">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados do último material cadastrado</legend>
+            <table border="1">
+                <tr>
+                    <th>Nome</th>
+                    <td style="text-align: left">Lápis</td>
+                </tr>
+                <tr>
+                    <th>Preço</th>
+                    <td style="text-align: left">R$ 12,30</td>
+                </tr>
+                <tr>
+                    <th>Quantidade</th>
+                    <td style="text-align: left">200</td>
+                </tr>
+                <tr>
+                    <th>Devolução</th>
+                    <td style="text-align: left">Sim</td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <br>
+    <a href="index.html">Voltar</a>
+    <br>
+</body>
+
+</html>

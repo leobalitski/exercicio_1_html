@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercício 5</title>
+    <meta charset="UTF-8/">
+</head>
+
+<body style="background-color:#99b1dd">
+    <h1 style="color: black; text-align: center">Clientes cadastrados </h1>
+
+    <form>
+        <table>
+            <tr style="background-color: black;color: white; text-align: left">
+                <th>Cliente</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>E-mail</th>
+            </tr>
+            <tr style="background-color: #4948a0;color: white; text-align: left">
+                <td>Ana Regina</td>
+                <td>29</td>
+                <td>Curitiba</td>
+                <th>Paraná</th>
+                <td>ana@gmail.com</td>
+            </tr>
+            <tr style="background-color: #4948a0;color: white; text-align: left">
+                <td>Fernanda Silva</td>
+                <td>42</td>
+                <td>Joinville</td>
+                <th>Santa Catarina</th>
+                <td>fernanda@gmail.com</td>
+            </tr>
+            <tr style="background-color: #4948a0;color: white; text-align: left">
+                <td>Rodrigo Ferreira</td>
+                <td>70</td>
+                <td>Curitiba</td>
+                <th>Paraná</th>
+                <td>rodrigo@gmail.com</td>
+            </tr>
+        </table>
+        <br><br>
+        <fieldset style="background-color: rgba(0,0,0,0.5); color: #000; border: 2px solid #000">
+            <legend style="background-color:rgba(0, 0, 0, 0.616); color: white">Cadastrar novo Cliente</legend>
+            <label style="color: white" for="nome">Nome:</label>
+            <input type="text" id="nome"><br>
+            <label style="color: white" for="idade">Idade:</label>
+            <input type="number" id="idade" max="100" min="18" height="50px">
+            <br>
+            <label style="color: white" for="cidade">Cidade:</label>
+            <input type="text" id="cidade">
+            <br>
+            <label style="color: white" for="estado">Estado:</label>
+            <select id="estado" name="estado"><br>
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="ap">Amapá</option>
+                <option value="am">Amazonas</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                <option value="ba">Bahia</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pa">Pará</option>
+                <option value="pb">Paraíba</option>
+                <option selected value="parana">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="ro">Rondônia</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="sp">São Paulo</option>
+                <option value="se">Sergipe</option>
+                <option value="to">Tocantins</option>
+            </select><br>
+            <label style="color: white" for="email">E-mail:</label>
+            <input type="email" id="email">
+            <br>
+            <input type="reset" style="background-color:#cf5f046b; color: white; border:none; width: 80px; height: 30px"
+                value="Cancelar">
+            <input type="submit" style="background-color:#710de2; color: white; border:none; width: 80px; height: 30px"
+                value="Salvar">
+        </fieldset><br>
+
+    </form><br>
+    <a href="index.html">Voltar</a><br>
+</body>
+
+</html>
